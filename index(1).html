@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Dhanushram S · AI/ML Engineer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;800&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--k:#000;--w:#fff;--bg:#fff;--ink:#000;--d:'Inter Tight','Helvetica Neue',Arial,sans-serif;--b:'Inter','Helvetica Neue',Arial,sans-serif;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#000;--ink:#fff}}
+:root[data-theme="dark"]{--bg:#000;--ink:#fff}
+:root[data-theme="light"]{--bg:#fff;--ink:#000}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:60px}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.65 var(--b);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+a{color:inherit}
+:focus-visible{outline:3px solid currentColor;outline-offset:3px}
+.wrap{max-width:1180px;margin:0 auto;padding:0 28px}
+.blk{background:var(--k);color:var(--w)}.wht{background:var(--w);color:var(--k)}
+nav{position:fixed;top:0;left:0;right:0;z-index:20;mix-blend-mode:difference;color:#fff;padding-top:env(safe-area-inset-top,0px)}
+nav .wrap{display:flex;justify-content:space-between;height:64px;align-items:center}
+nav b{font:800 18px var(--d);letter-spacing:-.02em}
+nav div{display:flex;gap:26px;font-size:15px}
+nav a{text-decoration:none}
+.hero{position:relative;min-height:100svh;display:flex;flex-direction:column;justify-content:flex-end;overflow:hidden;padding:110px 0 0}
+#cv{position:absolute;inset:0;width:100%;height:100%}
+.hero .wrap{position:relative;width:100%;pointer-events:none}
+.hero a,.hero .btn{pointer-events:auto}
+.tag{font-size:15px;opacity:.7;margin:0 0 14px}
+h1{font:800 clamp(60px,15.5vw,230px)/.82 var(--d);letter-spacing:-.065em;margin:0 0 30px}
+.lead{font:500 clamp(20px,2.6vw,30px)/1.25 var(--d);letter-spacing:-.02em;max-width:760px;margin:0 0 30px}
+.btns{display:flex;flex-wrap:wrap;gap:12px}
+.btn{display:inline-block;padding:14px 26px;border:1px solid currentColor;font:500 16px var(--b);text-decoration:none;cursor:pointer;background:transparent;color:inherit;transition:background .2s,color .2s}
+.blk .btn.p,.wht .btn:hover,.blk .btn:hover{background:var(--w);color:var(--k)}
+.blk .btn.p:hover{background:transparent;color:var(--w)}
+.wht .btn.p{background:var(--k);color:var(--w)}.wht .btn.p:hover{background:transparent;color:var(--k)}
+.links{display:flex;gap:26px;margin:24px 0 38px;font-size:15px;opacity:.8}
+.stats{position:relative;display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid #555;margin-top:10px}
+.stats div{padding:20px 28px;border-right:1px solid #555}.stats div:last-child{border:0}
+.stats b{display:block;font:800 clamp(28px,4vw,52px)/1 var(--d);letter-spacing:-.04em}
+.stats span{font-size:13px;opacity:.65}
+.mq{overflow:hidden;border-block:1px solid currentColor;padding:18px 0;white-space:nowrap}
+.mq div{display:inline-block;animation:mq 38s linear infinite;font:800 clamp(28px,4.5vw,52px) var(--d);letter-spacing:-.03em}
+.mq span{margin:0 22px}.mq i{font-style:normal;opacity:.4}
+@keyframes mq{to{transform:translateX(-50%)}}
+.pj{padding:110px 0 100px;position:relative;overflow:hidden}
+.num{font:800 clamp(140px,28vw,380px)/.8 var(--d);letter-spacing:-.07em;color:transparent;-webkit-text-stroke:1.5px currentColor;opacity:.22;position:absolute;right:-1vw;top:50px;pointer-events:none;user-select:none}
+.pj .wrap{position:relative}
+.kick{font-size:15px;opacity:.65;margin:0 0 10px}
+h2{font:800 clamp(52px,10vw,150px)/.9 var(--d);letter-spacing:-.06em;margin:0 0 28px}
+.big{font:800 clamp(64px,12vw,170px)/.85 var(--d);letter-spacing:-.06em;display:flex;align-items:flex-end;gap:18px;flex-wrap:wrap;margin:10px 0 44px}
+.big small{font:400 16px/1.3 var(--b);letter-spacing:0;opacity:.7;padding-bottom:14px;max-width:240px}
+.cols{display:grid;grid-template-columns:1.25fr 1fr;gap:56px}
+.cols ul{margin:0;padding:0;list-style:none}
+.cols li{padding:16px 0;border-top:1px solid currentColor;border-color:color-mix(in srgb,currentColor 25%,transparent);max-width:64ch}
+.side{display:grid;gap:26px;align-content:start}
+.side h4{margin:0 0 8px;font:600 13px var(--b);opacity:.6;text-transform:uppercase;letter-spacing:.08em}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chips i{font-style:normal;font-size:14px;border:1px solid currentColor;padding:3px 12px;border-radius:99px}
+.flow{display:flex;flex-direction:column;gap:0}
+.flow span{border:1px solid currentColor;padding:9px 14px;font-size:15px;position:relative;margin-bottom:16px}
+.flow span:not(:last-child)::after{content:"";position:absolute;left:24px;top:100%;height:16px;border-left:1px solid currentColor}
+.bar{display:grid;grid-template-columns:72px 1fr 56px;gap:12px;align-items:center;font-size:14px;margin:9px 0}
+.bar div{height:10px;background:color-mix(in srgb,currentColor 18%,transparent)}
+.bar i{display:block;height:100%;width:0;background:currentColor;transition:width 1.4s cubic-bezier(.2,.8,.2,1)}
+.bar.w i{background:repeating-linear-gradient(90deg,currentColor 0 4px,transparent 4px 7px)}
+.in .bar i{width:var(--v)}
+.tiles{display:grid;grid-template-columns:repeat(4,1fr);border-left:1px solid currentColor;border-top:1px solid currentColor;margin-top:40px}
+.tile{padding:26px 22px 30px;border-right:1px solid currentColor;border-bottom:1px solid currentColor;min-height:210px;transition:background .25s,color .25s}
+.tile:hover{background:var(--k);color:var(--w)}
+.tile h4{font:800 24px/1.05 var(--d);letter-spacing:-.03em;margin:0 0 14px}
+.tile p{margin:0;font-size:15px;opacity:.75}
+.sec{padding:110px 0 0}
+.sec h2{font-size:clamp(46px,8vw,110px);margin-bottom:0}
+.edu{display:grid;grid-template-columns:1fr 1fr;gap:56px;margin-top:40px}
+.edu h4{font:800 28px/1.1 var(--d);letter-spacing:-.03em;margin:0 0 8px}
+.edu p{margin:0;opacity:.75}
+.ct{padding:130px 0 50px;margin-top:110px}
+.ct h2{font-size:clamp(46px,9vw,130px);max-width:1000px}
+.mail{font:800 clamp(22px,4.4vw,56px) var(--d);letter-spacing:-.04em;text-decoration:underline;text-underline-offset:10px;text-decoration-thickness:3px;word-break:break-all}
+.ct .btns{margin:38px 0 90px}
+.ct small{opacity:.55;font-size:14px}
+.rv{transition:opacity .9s,transform .9s cubic-bezier(.2,.8,.2,1)}
+.js .rv{opacity:0;transform:translateY(40px)}
+.js .rv.in{opacity:1;transform:none}
+@media(max-width:860px){.cols,.edu{grid-template-columns:1fr;gap:34px}.tiles{grid-template-columns:1fr 1fr}.stats{grid-template-columns:1fr}.stats div{border-right:0;border-bottom:1px solid #555;padding:14px 28px}nav div a:nth-child(n+3){display:none}.num{top:20px}}
+@media(prefers-reduced-motion:reduce){.mq div{animation:none}.rv,.bar i{transition:none}}
+</style>
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+<nav><div class="wrap"><b>DS</b><div><a href="#work">Projects</a><a href="#skills">Skills</a><a href="#edu">Education</a><a href="#contact">Contact</a></div></div></nav>
+
+<header class="hero blk"><canvas id="cv" aria-hidden="true"></canvas>
+<div class="wrap">
+<p class="tag">AI/ML Engineer · B.Tech Information Technology, 2026</p>
+<h1>Dhanushram S</h1>
+<p class="lead">I build machine learning systems end to end and put them online: phishing detection, retrieval-augmented recommendation, and retinal disease classification.</p>
+<div class="btns"><a class="btn p" href="https://decoy-ai.streamlit.app/" target="_blank" rel="noopener">Try Decoy</a><a class="btn" href="https://cinerag-ai.streamlit.app/" target="_blank" rel="noopener">Try CineRAG</a></div>
+<div class="links"><a href="https://github.com/dhanushram2612" target="_blank" rel="noopener">GitHub</a><a href="https://huggingface.co/Dhanushram2" target="_blank" rel="noopener">Hugging Face</a><a href="https://www.linkedin.com/in/dhanush-ram-967b81309" target="_blank" rel="noopener">LinkedIn</a></div>
+</div>
+<div class="stats wrap" style="padding:0 28px"><div><b data-n="2" data-s="">2</b><span>Live demos you can try right now</span></div><div><b data-n="3" data-s="">3</b><span>End-to-end ML projects, from data to deployed app</span></div><div><b style="font-size:clamp(24px,2.8vw,36px);padding:8px 0">NLP · RAG · Vision</b><span>Domains covered across the projects</span></div></div>
+</header>
+
+<div class="mq wht" aria-hidden="true"><div><span>Python</span><i>/</i><span>PyTorch</span><i>/</i><span>TensorFlow</span><i>/</i><span>XGBoost</span><i>/</i><span>BERT</span><i>/</i><span>RAG</span><i>/</i><span>ChromaDB</span><i>/</i><span>Groq</span><i>/</i><span>Hugging Face</span><i>/</i><span>Streamlit</span><i>/</i><span>Flask</span><i>/</i><span>Grad-CAM</span><i>/</i><span>Python</span><i>/</i><span>PyTorch</span><i>/</i><span>TensorFlow</span><i>/</i><span>XGBoost</span><i>/</i><span>BERT</span><i>/</i><span>RAG</span><i>/</i><span>ChromaDB</span><i>/</i><span>Groq</span><i>/</i><span>Hugging Face</span><i>/</i><span>Streamlit</span><i>/</i><span>Flask</span><i>/</i><span>Grad-CAM</span><i>/</i></div></div>
+
+<main id="work">
+<section class="pj blk"><div class="num">01</div><div class="wrap rv">
+<p class="kick">URL and email phishing detection · Live on Streamlit</p><h2>Decoy</h2>
+<div class="big"><span>URL + Email</span><small>two detection layers, each verdict explained in plain language</small></div>
+<div class="cols"><ul>
+<li>URL classifier stacks XGBoost on lexical and domain-trust features (Tranco rank) with a character-level Transformer.</li>
+<li>Email classifier combines fine-tuned BERT with XGBoost on 15 engineered features: brand impersonation, manipulation-tactic lexicon and sentiment.</li>
+<li>Email model went through 8 versions across 5 data sources, fixing data leakage and overfitting, removing near-duplicates, and adding legitimate-urgent samples to cut false positives.</li>
+<li>A Groq-hosted GPT-OSS-120B layer explains each flagged message in plain language. Weights live on Hugging Face Hub.</li></ul>
+<div class="side"><div><h4>URL layer</h4><div class="flow"><span>URL</span><span>XGBoost + domain trust</span><span>Char-level Transformer</span><span>Logistic-regression meta-learner</span><span>Verdict + LLM explanation</span></div></div>
+<div><h4>Stack</h4><div class="chips"><i>Python</i><i>XGBoost</i><i>PyTorch</i><i>BERT</i><i>scikit-learn</i><i>Streamlit</i><i>Groq</i></div></div>
+<div><a class="btn p" href="https://decoy-ai.streamlit.app/" target="_blank" rel="noopener">Open decoy-ai.streamlit.app</a></div></div></div>
+</div></section>
+
+<section class="pj wht"><div class="num">02</div><div class="wrap rv">
+<p class="kick">Conversational movie recommendation · Live on Streamlit</p><h2>CineRAG</h2>
+<div class="big"><span>Grounded</span><small>the LLM can only recommend movies it actually retrieved</small></div>
+<div class="cols"><ul>
+<li>Modular retrieval-augmented pipeline (ingestion, vector store, memory, enrichment) over the TMDB movie dataset.</li>
+<li>Follow-ups like "something shorter" work because an LLM rewrites each message into a standalone query before search.</li>
+<li>Names of directors, actors, composers and writers are fuzzy-matched to metadata filters, with rating and vote-count thresholds and a staged fallback when strict filters return nothing.</li>
+<li>GPT-OSS-120B is limited to structured JSON and to the retrieved candidates, so a movie that was never retrieved cannot appear in the answer. Posters and ratings come live from OMDb.</li></ul>
+<div class="side"><div><h4>Stack</h4><div class="chips"><i>Python</i><i>ChromaDB</i><i>Sentence-Transformers</i><i>Groq</i><i>OMDb API</i><i>Streamlit</i><i>all-MiniLM-L6-v2</i><i>cosine search</i></div></div>
+<div><a class="btn p" href="https://cinerag-ai.streamlit.app/" target="_blank" rel="noopener">Open cinerag-ai.streamlit.app</a></div></div></div>
+</div></section>
+
+<section class="pj blk"><div class="num">03</div><div class="wrap rv">
+<p class="kick">Six-class retinal disease classification from fundus images · Final year team project · Led a team of 3</p><h2>RetinXpert</h2>
+<div class="big"><span>Explainable</span><small>Grad-CAM heatmaps and PDF diagnostic reports in a Flask app</small></div>
+<div class="cols"><ul>
+<li>Three-phase fine-tuning: frozen head, top 100 layers, then all layers, with augmentation, class weighting and label smoothing.</li>
+<li>Flask app returns Grad-CAM heatmaps for explainability and generates PDF diagnostic reports.</li>
+<li>Data: 2,575 training and 1,450 validation images.</li></ul>
+<div class="side"><div><h4>Six classes</h4><div class="chips"><i>ARMD</i><i>Cataract</i><i>DR</i><i>HR</i><i>RVO</i><i>Normal</i></div>
+<p style="font-size:15px;opacity:.7;margin:14px 0 0">Next step: more data and error analysis on RVO.</p></div>
+<div><h4>Stack</h4><div class="chips"><i>Python</i><i>TensorFlow</i><i>Keras</i><i>EfficientNetB3</i><i>Flask</i><i>Grad-CAM</i></div></div></div></div>
+</div></section>
+
+<section class="sec wht" id="skills"><div class="wrap rv"><h2>Skills</h2>
+<div class="tiles">
+<div class="tile"><h4>Languages</h4><p>Python, SQL, JavaScript, HTML, CSS</p></div>
+<div class="tile"><h4>Machine learning</h4><p>XGBoost, model stacking, feature engineering, model evaluation</p></div>
+<div class="tile"><h4>Deep learning</h4><p>CNNs, transfer learning, EfficientNet, Transformers, Grad-CAM</p></div>
+<div class="tile"><h4>NLP and GenAI</h4><p>RAG, BERT fine-tuning, LLM inference with Groq, sentence embeddings, semantic search</p></div>
+<div class="tile"><h4>Frameworks</h4><p>PyTorch, TensorFlow, Keras, scikit-learn, Hugging Face Transformers, Pandas, NumPy</p></div>
+<div class="tile"><h4>Vector search</h4><p>ChromaDB, FAISS, Sentence-Transformers</p></div>
+<div class="tile"><h4>Deployment</h4><p>Streamlit, Flask, REST APIs, Hugging Face Hub</p></div>
+<div class="tile"><h4>Data and tools</h4><p>MongoDB, Git, GitHub, Linux, Google Colab</p></div>
+</div></div></section>
+
+<section class="sec wht" id="edu"><div class="wrap rv"><h2>Education</h2>
+<div class="edu"><div><h4>B.Tech, Information Technology</h4><p>Mookambigai College of Engineering, Kalamavur, Tamil Nadu (Anna University)<br>Graduated 2026 · CGPA 7.9 / 10</p></div>
+<div><h4>Certifications</h4><p>Generative AI Fundamentals, IBM (Credly)<br>Full Stack Web Development, CSC Computers</p></div></div></div></section>
+</main>
+
+<footer class="ct blk" id="contact"><div class="wrap rv">
+<h2>Open to AI/ML engineer roles and internships.</h2>
+<a class="mail" href="mailto:dhanushramds@gmail.com">dhanushramds@gmail.com</a>
+<div class="btns"><button class="btn p" id="cp" type="button">Copy email</button><a class="btn" href="tel:+919025267683">+91 9025267683</a><a class="btn" href="https://www.linkedin.com/in/dhanush-ram-967b81309" target="_blank" rel="noopener">LinkedIn</a></div>
+<small>Dhanushram S · Models and demos are linked above.</small></div></footer>
+
+<script>
+(function(){
+var rm=window.matchMedia('(prefers-reduced-motion:reduce)').matches;
+/* particle network hero */
+var cv=document.getElementById('cv'),cx=cv.getContext('2d'),W,H,P=[],m={x:-999,y:-999},dpr=Math.min(devicePixelRatio||1,2);
+function size(){var r=cv.getBoundingClientRect();W=r.width;H=r.height;cv.width=W*dpr;cv.height=H*dpr;cx.setTransform(dpr,0,0,dpr,0,0);
+var n=Math.round(Math.min(120,W*H/11000));P=[];for(var i=0;i<n;i++)P.push({x:Math.random()*W,y:Math.random()*H,vx:(Math.random()-.5)*.35,vy:(Math.random()-.5)*.35})}
+function draw(){cx.clearRect(0,0,W,H);
+for(var i=0;i<P.length;i++){var p=P[i];
+if(!rm){p.x+=p.vx;p.y+=p.vy;if(p.x<0||p.x>W)p.vx*=-1;if(p.y<0||p.y>H)p.vy*=-1;
+var dx=p.x-m.x,dy=p.y-m.y,d=Math.sqrt(dx*dx+dy*dy);if(d<130){p.x+=dx/d*1.6;p.y+=dy/d*1.6}}
+cx.fillStyle='rgba(255,255,255,.85)';cx.beginPath();cx.arc(p.x,p.y,1.8,0,6.283);cx.fill();
+for(var j=i+1;j<P.length;j++){var q=P[j],a=p.x-q.x,b=p.y-q.y,e=a*a+b*b;
+if(e<16900){cx.strokeStyle='rgba(255,255,255,'+(.28*(1-e/16900))+')';cx.lineWidth=1;cx.beginPath();cx.moveTo(p.x,p.y);cx.lineTo(q.x,q.y);cx.stroke()}}}
+if(!rm)requestAnimationFrame(draw)}
+size();draw();addEventListener('resize',function(){size();if(rm)draw()});
+cv.parentNode.addEventListener('pointermove',function(e){var r=cv.getBoundingClientRect();m.x=e.clientX-r.left;m.y=e.clientY-r.top});
+cv.parentNode.addEventListener('pointerleave',function(){m.x=m.y=-999});
+/* counters */
+function count(el){var t=parseFloat(el.dataset.n),s=el.dataset.s||'',dec=String(t).indexOf('.')>-1?1:0;
+if(rm){el.textContent=t.toFixed(dec)+s;return}
+var t0=null;function f(ts){t0=t0||ts;var k=Math.min((ts-t0)/1500,1),v=t*(1-Math.pow(1-k,3));el.textContent=v.toFixed(dec)+s;if(k<1)requestAnimationFrame(f)}requestAnimationFrame(f)}
+/* reveal */
+var io=null;
+try{io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');e.target.querySelectorAll('[data-n]').forEach(count);io.unobserve(e.target)}})},{threshold:.12});
+document.querySelectorAll('.rv').forEach(function(el){io.observe(el)});
+document.querySelectorAll('.stats').forEach(function(el){el.classList.add('rv');io.observe(el)})}
+catch(e){document.querySelectorAll('.rv').forEach(function(el){el.classList.add('in')})}
+/* copy */
+document.getElementById('cp').addEventListener('click',function(){var b=this;function done(t){b.textContent=t;setTimeout(function(){b.textContent='Copy email'},1800)}
+try{navigator.clipboard.writeText('dhanushramds@gmail.com').then(function(){done('Copied')},function(){done('Copy failed')})}catch(e){done('Copy failed')}});
+})();
+</script>
+</body>
+</html>
