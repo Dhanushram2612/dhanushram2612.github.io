@@ -88,6 +88,10 @@ h2{font:800 clamp(52px,10vw,150px)/.9 var(--d);letter-spacing:-.06em;margin:0 0 
 .ct h2{font-size:clamp(46px,9vw,130px);max-width:1000px}
 .mail{font:800 clamp(22px,4.4vw,56px) var(--d);letter-spacing:-.04em;text-decoration:underline;text-underline-offset:10px;text-decoration-thickness:3px;word-break:break-all}
 .ct .btns{margin:38px 0 90px}
+.mf{display:grid;gap:14px;max-width:560px;margin:0 0 70px}
+.mf label{display:grid;gap:6px;font-size:14px;opacity:.85}
+.mf input,.mf textarea{padding:13px 14px;background:transparent;color:inherit;border:1px solid currentColor;font:400 16px var(--b);border-radius:0}
+.mf .btn{justify-self:start}
 .ct small{opacity:.55;font-size:14px}
 .rv{transition:opacity .9s,transform .9s cubic-bezier(.2,.8,.2,1)}
 .js .rv{opacity:0;transform:translateY(40px)}
@@ -178,7 +182,16 @@ h2{font:800 clamp(52px,10vw,150px)/.9 var(--d);letter-spacing:-.06em;margin:0 0 
 <footer class="ct blk" id="contact"><div class="wrap rv">
 <h2>Open to AI/ML engineer roles and internships.</h2>
 <a class="mail" href="mailto:dhanushramds@gmail.com">dhanushramds@gmail.com</a>
-<div class="btns"><button class="btn p" id="cp" type="button">Copy email</button><a class="btn" href="Dhanushram_S_Resume.pdf" target="_blank" rel="noopener">Resume (PDF)</a><a class="btn" href="tel:+919025267683">+91 9025267683</a><a class="btn" href="https://www.linkedin.com/in/dhanush-ram-967b81309" target="_blank" rel="noopener">LinkedIn</a></div>
+<div class="btns"><button class="btn p" id="cp" type="button">Copy email</button><a class="btn" href="Dhanushram_S_Resume.pdf" target="_blank" rel="noopener">Resume (PDF)</a><a class="btn" href="#message">Send a message</a><a class="btn" href="https://www.linkedin.com/in/dhanush-ram-967b81309" target="_blank" rel="noopener">LinkedIn</a></div>
+<form id="message" class="mf" action="https://formsubmit.co/dhanushramds@gmail.com" method="POST">
+<input type="hidden" name="_subject" value="New message from portfolio">
+<input type="hidden" name="_captcha" value="false">
+<input type="text" name="_honey" tabindex="-1" autocomplete="off" style="display:none">
+<label>Name<input name="name" required autocomplete="name"></label>
+<label>Email or phone<input name="contact" required autocomplete="email"></label>
+<label>Message<textarea name="message" rows="4" required></textarea></label>
+<button class="btn p" type="submit">Send message</button>
+</form>
 <small>Dhanushram S · Demos and code are linked above.</small></div></footer>
 
 <script>
